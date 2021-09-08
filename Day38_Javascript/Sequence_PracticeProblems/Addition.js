@@ -1,0 +1,14 @@
+let firstNum= (Math.floor(Math.random()*10)%7);
+console.log("First number : " +firstNum);
+let secondNum=(Math.floor(Math.random()*10)%7);
+console.log("Second number : " +secondNum);
+let thirdNum= (Math.floor(Math.random()*10)%7);
+console.log("Third number : " +thirdNum);
+let fourthNum= (Math.floor(Math.random()*10)%7);
+console.log("Fourth number : " +fourthNum);
+let fifthNum= (Math.floor(Math.random()*10)%7);
+console.log("Fifth number : " +fifthNum);
+let sum= (firstNum+secondNum+thirdNum+fourthNum+fifthNum);
+console.log("Sum is : " +sum);
+let avg= sum/5;
+console.log("Avg is : " +avg);
